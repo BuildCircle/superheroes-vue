@@ -12,7 +12,7 @@ We expect the solution to be simple, readable, and to be supported by good unit 
 ## 1. Run the tests
 
 ```
-yarn test
+npm run test:unit
 ```
 
 ## 2. Check the code
