@@ -11,9 +11,22 @@ We expect the solution to be simple, readable, and to be supported by good unit 
 
 ## 1. Run the tests
 
+Use Node 24 (see `.nvmrc`) and install the dependencies first:
+
 ```
+npm install
 npm run test:unit
 ```
+
+The tests run with [Vitest](https://vitest.dev/), which has a Jest-compatible API (use `vi.fn()` and `vi.mock()` where you would use `jest.fn()` and `jest.mock()`).
+
+To run the app locally:
+
+```
+npm run dev
+```
+
+Then open http://localhost:5173/ in your browser.
 
 ## 2. Check the code
 
